@@ -1,0 +1,64 @@
+body{
+    color: rgb(0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "New Amsterdam", sans-serif;
+    background-image:url(resources/photo-1683752880818-a35d1f2f986e.avif) ;
+}
+div{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    color: #FFFFFF;
+background: #333333;
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    border-radius: 10px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+.personal{
+    padding: 15px;
+    color: white;
+}
+#personal{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-content:center ;
+}
+#hobby{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    align-content:center ;
+}
+p{
+    padding: 10px;
+}
+
+#img{
+    padding: 0;
+    margin: 0;
+    border: 5px solid #59dfc7;
+    border-radius: 30px
+}
+img{
+    background-size: cover;
+    border-radius: 20px;
+}
+h2{
+    font-family: "Noto Sans Thai", sans-serif;
+}
+p{
+    font-family: "Noto Sans Thai", sans-serif;
+}

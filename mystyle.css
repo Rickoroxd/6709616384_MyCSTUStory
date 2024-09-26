@@ -174,4 +174,21 @@ footer{
     position: absolute;
     bottom: 0%;
 }
-
+/*
+    fix-page 3
+*/
+.container{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.conn{
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #0688fa;
+    border-radius: 20px;
+    width: 1100px;
+}

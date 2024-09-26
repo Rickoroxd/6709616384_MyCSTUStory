@@ -143,12 +143,35 @@ h2{
     text-align: center;
     float: left;
 }
-.p3{  
-    float: left;
-}
+
 .b3{
     clear: both;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
 }
 .butt{
     width: fit-content;
 }
+.fline{
+    box-sizing: border-box;
+    padding: 0;
+    border:solid 5px #FFFFFF ;
+    border-radius: 20px;
+    margin: 30px;
+}
+.p3{
+    font-size: 25px;
+}
+/*
+    fix-page 2
+*/
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0%;
+}
+
